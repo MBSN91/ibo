@@ -1,3 +1,6 @@
+Access-Control-Allow-Origin: *
+
+
 $('.kleur0').click(function() {
 
 $('.pak0').removeClass('hide');
