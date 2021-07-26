@@ -20,7 +20,7 @@ var waypoint = new Waypoint({
       const options = {
     duration: 5,
   };
-  let demo = new CountUp('voering', 7068, options);
+  let demo = new CountUp('voering', 168, options);
   if (!demo.error) {
     demo.start();
   } else {
@@ -36,7 +36,7 @@ var waypoint = new Waypoint({
       const options = {
     duration: 5,
   };
-  let demo = new CountUp('knoop', 7068, options);
+  let demo = new CountUp('knoop', 81, options);
   if (!demo.error) {
     demo.start();
   } else {
@@ -52,7 +52,7 @@ var waypoint = new Waypoint({
       const options = {
     duration: 5,
   };
-  let demo = new CountUp('kraag', 7068, options);
+  let demo = new CountUp('kraag', 32, options);
   if (!demo.error) {
     demo.start();
   } else {
@@ -62,13 +62,15 @@ var waypoint = new Waypoint({
     offset: '100%'
   })
   
+
+
   var waypoint = new Waypoint({
     element: document.getElementById('garen'),
     handler: function(direction) {
       const options = {
     duration: 5,
   };
-  let demo = new CountUp('garen', 7068, options);
+  let demo = new CountUp('garen', 22, options);
   if (!demo.error) {
     demo.start();
   } else {
@@ -79,12 +81,28 @@ var waypoint = new Waypoint({
   })
   
   var waypoint = new Waypoint({
+    element: document.getElementById('rever'),
+    handler: function(direction) {
+      const options = {
+    duration: 5,
+  };
+  let demo = new CountUp('rever', 23, options);
+  if (!demo.error) {
+    demo.start();
+  } else {
+    console.error(demo.error);
+  }
+    },
+    offset: '100%'
+  })
+
+  var waypoint = new Waypoint({
     element: document.getElementById('zakken'),
     handler: function(direction) {
       const options = {
     duration: 5,
   };
-  let demo = new CountUp('zakken', 7068, options);
+  let demo = new CountUp('zakken', 21, options);
   if (!demo.error) {
     demo.start();
   } else {
@@ -100,7 +118,7 @@ var waypoint = new Waypoint({
       const options = {
     duration: 5,
   };
-  let demo = new CountUp('broek', 7068, options);
+  let demo = new CountUp('broek', 16, options);
   if (!demo.error) {
     demo.start();
   } else {
@@ -116,7 +134,7 @@ var waypoint = new Waypoint({
       const options = {
     duration: 5,
   };
-  let demo = new CountUp('gilet', 7068, options);
+  let demo = new CountUp('gilet', 6, options);
   if (!demo.error) {
     demo.start();
   } else {
